@@ -1,0 +1,29 @@
+{
+  "name": "yzj-cli",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "y": "./bin/y",
+    "y-init": "./bin/y-init",
+    "y-list": "./bin/y-list",
+    "y-delete": "./bin/y-delete",
+    "y-add": "./bin/y-add"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "脚手架",
+    "工程化"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  }
+}

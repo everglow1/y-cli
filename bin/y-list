@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const chalk = require('chalk');
+const tplObj = require(`${__dirname}/../template`);
+
+console.log(chalk.green('template lists:'))
+console.log(chalk.blue('================='))
+console.log('\n')
+Object.keys(tplObj).forEach((name) => {
+	console.log(chalk.blue(name))
+})
