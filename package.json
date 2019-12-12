@@ -1,14 +1,14 @@
 {
   "name": "yzj-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
-    "y": "./bin/y",
-    "y-init": "./bin/y-init",
-    "y-list": "./bin/y-list",
-    "y-delete": "./bin/y-delete",
-    "y-add": "./bin/y-add"
+    "y": "bin/y",
+    "y-init": "bin/y-init",
+    "y-list": "bin/y-list",
+    "y-delete": "bin/y-delete",
+    "y-add": "bin/y-add"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
